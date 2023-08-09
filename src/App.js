@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+
+import React    from 'react';
+import PeliAzar from './components/PeliAzar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Aplicación de Películas</h1>
+      <PeliAzar />
     </div>
   );
 }
