@@ -25,7 +25,7 @@ const PeliAzar = () => {
     return (
         <div>
             <h2>{peliculaAzar.titulo}</h2>
-            <a href={peliculaAzar.link} target="_blank">Ver en IMDB</a>
+            <a href={peliculaAzar.link} target="_blank" rel="noopener noreferrer">Ver en IMDB</a>
             <Poster src={peliculaAzar.poster} alt={peliculaAzar.titulo} />
             <Trailer embedId={peliculaAzar.trailerUrl} />
         </div>
